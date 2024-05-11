@@ -94,6 +94,7 @@ export const RAY_MINT: string = '4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R'
 export const WSOL_MINT: string = 'So11111111111111111111111111111111111111112'
 
 export const TOKENS: Tokens = {
+  
   WSOL: {
     symbol: 'WSOL',
     name: 'Wrapped Solana',
@@ -407,6 +408,25 @@ export const TOKENS: Tokens = {
     mintAddress: 'TuLipcqtGVXP9XR62wM8WWCm6a9vhLs7T1uoWBk6FDs',
     decimals: 6,
     referrer: 'Bcw1TvX8jUj6CtY2a7GU2THeYVAudvmT8yzRypVMVsSH',
+    tags: ['raydium']
+  },
+  MS2: {
+    symbol: 'MS2',
+    name: 'Station This',
+    mintAddress: 'AbktLHcNzEoZc9qfVgNaQhJbqDTEmLwsARY7JcTndsPg',
+    details:
+      'MS2 allows users to access and utilize the stationthisbot on telegram to generate txt2img, img2img, img2vid, img2model and chat with uncensored LLMs all in telegram from wherever. Generations are queued according to account token balance, so whales skip the line. New features shipping weekly.',
+    docs: {
+      website: 'https://miladystation2.net/',
+    },
+    socials: {
+      Twitter: 'https://twitter.com/stationthisbot',
+      Telegram: 'https://t.me/stationthisbot',
+      Instagram: 'https://www.instagram.com/miladystation/',
+      TikTok: 'https://www.tiktok.com/@stationthis'
+    },
+    decimals: 6,
+    referrer: '5ETXU6D1Vk6VumLUKeoH2uVEFKV5QZpDj4ksQ2kLYgCX',
     tags: ['raydium']
   },
   SNY: {
